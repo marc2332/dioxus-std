@@ -29,7 +29,7 @@ wasm-testing = ["geolocation", "color_scheme", "utils", "i18n"]
 desktop-testing = ["clipboard", "notifications", "geolocation", "utils", "i18n"]
 
 [dependencies]
-dioxus = { version = "0.3" }
+dioxus = { git = "https://github.com/DioxusLabs/dioxus", rev="11c9abcf7ce731ccb4a44c52de383c090ab319af" }
 cfg-if = "1.0.0"
 
 # utils
