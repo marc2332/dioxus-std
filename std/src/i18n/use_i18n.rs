@@ -74,7 +74,7 @@ impl Language {
     }
 }
 
-#[derive(Clone, PartialEq)]
+#[derive(Copy, Clone, PartialEq)]
 pub struct UseI18 {
     pub selected_language: Signal<LanguageIdentifier>,
     pub data: Signal<UseInitI18Data>,
