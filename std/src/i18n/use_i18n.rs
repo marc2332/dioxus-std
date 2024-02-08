@@ -106,7 +106,7 @@ impl UseI18 {
         self.translate_with_params(id, HashMap::default())
     }
 
-    pub fn set_language(&self, id: LanguageIdentifier) {
+    pub fn set_language(&mut self, id: LanguageIdentifier) {
         *self.selected_language.write() = id;
     }
 }
